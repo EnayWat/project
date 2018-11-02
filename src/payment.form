@@ -22,18 +22,21 @@
             </constraints>
             <properties>
               <text value="                 Adress : "/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
             </properties>
           </component>
-          <scrollpane id="2e805">
+          <component id="17c9f" class="javax.swing.JTextArea" binding="textAreaAdress">
             <constraints>
-              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
             </constraints>
             <properties>
-              <toolTipText value=""/>
+              <editable value="false"/>
+              <enabled value="true"/>
             </properties>
-            <border type="none"/>
-            <children/>
-          </scrollpane>
+          </component>
         </children>
       </grid>
       <grid id="be61b" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -52,14 +55,17 @@
               <text value="                   Order : "/>
             </properties>
           </component>
-          <scrollpane id="fe416">
+          <component id="8c5dc" class="javax.swing.JTextArea" binding="textAreaOrder">
             <constraints>
-              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
             </constraints>
-            <properties/>
-            <border type="none"/>
-            <children/>
-          </scrollpane>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
         </children>
       </grid>
       <grid id="aabad" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
